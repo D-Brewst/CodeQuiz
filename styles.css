@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin: 0;
+    font-size: 16px;
+    background-color: white;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+#question{
+    font-size: 20px;
+}
+
+#heading{
+    text-align: center;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 2.5em;
+}
+
+#container{
+    text-align: center;
+    margin: 50px auto 10px auto;
+    background-color: #c0aee0;
+    width: 75%;
+    height: 100%;
+    padding: 40px;
+    border-radius: 7px;
+}
+
+#start{
+    padding: 10px;
+    border-radius: 7px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#q-a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#timeRemaining{
+    text-align: center;
+    width: 40%;
+    background-color: #00b3b3;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+#user-scores{
+    text-decoration: underline;
+}
+
+#leaderboard{
+    text-align: center;
+    margin: auto;
+    background-color: yellow;
+    width: 40%;
+    padding: 10px;
+}
+
+.icons{
+    display: inline-block;
+}
+
+.btn{
+    display: block;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #FBFCFC;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#tracker{
+    margin-left: 12.5%;
+}
+
+#play-again{
+    text-align: center;
+    margin: 30px auto;
+}
+
+#repeat{
+    width: 30%;
+    padding: 10px;
+    border-radius: 7;
+    background-color: steelblue;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1em;
+}
+
+.hide{
+    display: none;
+}
+

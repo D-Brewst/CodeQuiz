@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Code Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bubblegum+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1 id="heading">The FUN😁 Web Developer Quiz!</h1>
+    <div class="countdown hide" id="count-down">
+        <p id="timeRemaining"></p>
+    </div>
+    <div class="container" id="container">
+        <div class="start-btn">
+            <h3>Instructions:</h3>
+            <p>This quiz has 5 multiple choice questions. Your final score will be determined by your ability to correctly answer each question. Your score is equivalent to your time remaining. Each correct answer gives you an extra 10 points and each wrong answer will dock you 10 points. You will also lose one point per second, so be QUICK! The background will turn green when you are correct and red when you are incorrect. Good Luck!👍</p>
+            <button id="start">Start Quiz Game</button>
+        </div> 
+        <div class="hide" id="q-a">
+            <p id="question">Question</p>
+            <button class="btn btn-light" id="a1">Answer1</button>
+            <button class="btn btn-light" id="a2">Answer2</button>
+            <button class="btn btn-light" id="a3">Answer3</button>
+            <button class="btn btn-light" id="a4">Answer4</button>
+        </div>
+    </div>
+    <div id="tracker">
+        <ol id="trackerTool">
+        </ol>
+    </div>
+    <div id="leaderboard">
+        <h2 id="user-scores">Your Recent Scores</h2>
+        <ul id="list-scores">
+
+        </ul>
+    </div>
+    <div id="play-again">
+        <button id="repeat">
+            <h3>Play Again</h3>
+        </button>
+    </div>
+<script src="script.js"></script>  
+</body>
+</html>
