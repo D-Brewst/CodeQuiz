@@ -109,6 +109,7 @@ function clearTracker(){
     start.style.display = "inline-block"
     qanda.setAttribute("class", "hide");
     countDown.setAttribute("class", "hide");
+    body.style.backgroundColor="white"
     while(trackerEl.firstChild){
         trackerEl.removeChild(trackerEl.firstChild);
     }
