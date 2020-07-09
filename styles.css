@@ -89,6 +89,10 @@ h3{
     margin: 30px auto;
 }
 
+#list-scores{
+    list-style-type: none;
+}
+
 #repeat{
     width: 30%;
     padding: 10px;
